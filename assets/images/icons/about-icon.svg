@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+    <defs>
+        <filter id="u9jvlif11a" width="150%" height="150%" x="-25%" y="-17.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.79071431 0 0 0 0 0.868176473 0 0 0 0 0.953257866 0 0 0 0.5 0"/>
+        </filter>
+        <filter id="qh5rg9hefc">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.011765 0 0 0 0 0.619608 0 0 0 0 0.878431 0 0 0 1.000000 0"/>
+        </filter>
+        <circle id="lg2ji87z2b" cx="35" cy="35" r="35"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g fill-rule="nonzero" transform="translate(-803 -2141) translate(365 2146) translate(448)">
+                        <use fill="#000" filter="url(#u9jvlif11a)" xlink:href="#lg2ji87z2b"/>
+                        <use fill="#FFF" xlink:href="#lg2ji87z2b"/>
+                    </g>
+                    <g filter="url(#qh5rg9hefc)" opacity=".44" transform="translate(-803 -2141) translate(365 2146) translate(448)">
+                        <g fill="#7DBBF6" fill-rule="nonzero">
+                            <path d="M21.188 0H2.813C1.262 0 0 1.311 0 2.924v17.152C0 21.69 1.262 23 2.813 23h18.375C22.738 23 24 21.689 24 20.076V2.924C24 1.31 22.738 0 21.187 0zM2.813 1.95h18.375c.516 0 .937.436.937.974v2.923H1.875V2.924c0-.538.42-.975.938-.975zm18.375 19.1H2.813c-.517 0-.938-.436-.938-.974V7.796h20.25v12.28c0 .538-.42.975-.938.975zM3.28 3.899c0-.538.42-.974.938-.974s.937.436.937.974c0 .539-.42.975-.937.975-.518 0-.938-.436-.938-.975zm3.281 0c0-.538.42-.974.938-.974s.938.436.938.974c0 .539-.42.975-.938.975s-.938-.436-.938-.975zm5.72 7.65H3.843V9.6h8.437v1.949zM7.59 13.45h8.437v1.95H7.591v-1.95zm-3.75 3.898h8.437v1.95H3.841v-1.95z" transform="translate(23 25)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
