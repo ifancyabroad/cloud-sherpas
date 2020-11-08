@@ -24,6 +24,7 @@ $theme-colors: (
 $body-bg: #fff;
 $body-color: $dark;
 
+$link-color: $dark;
 $link-decoration: none;
 $link-hover-decoration: none;
 
@@ -34,6 +35,11 @@ $font-size-root: 1rem;
 $font-size-base: 1.125rem;
 $font-size-lg: $font-size-root * 1.25;
 $font-size-xl: $font-size-root * 1.5;
+
+$line-height-base: 2;
+$line-height-sm: 1.5;
+$line-height-lg: 2.5;
+
 $h1-font-size: $font-size-root * 4.375;
 $h2-font-size: $font-size-root * 3;
 $h3-font-size: $font-size-root * 2.125;

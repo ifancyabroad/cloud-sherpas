@@ -1,6 +1,30 @@
-- name: Home
-  link: /#
-- name: Page 01
-  link: /#
-- name: Page 02
-  link: /#
+main:
+  - name: Home
+    link: /#
+  - name: About Us
+    link: /about
+  - name: Services
+    link: /services
+    sub_navigation:
+      - name: Technology Consulting
+        link: /#
+      - name: Software Development
+        link: /#
+      - name: IT-Infrastructure
+        link: /#
+      - name: Cyber Security
+        link: /#
+  - name: Our Team
+    link: /team
+  - name: Contact Us
+    link: /contact
+social_media:
+  - name: Facebook
+    link: https://www.facebook.com/
+    font_awesome: fab fa-facebook-f
+  - name: Twitter
+    link: https://twitter.com/
+    font_awesome: fab fa-twitter
+  - name: Instagram
+    link: https://www.instagram.com/
+    font_awesome: fab fa-instagram

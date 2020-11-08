@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="224" viewBox="0 0 228 224">
+    <g fill="none" fill-rule="evenodd" opacity=".404">
+        <g stroke="#2196F3" stroke-width="4.8">
+            <g>
+                <g opacity=".3">
+                    <path d="M.209.102C.734.396 1.255.696 1.774 1" transform="translate(-238 -1256) translate(241 1259) translate(164.444 5.871)"/>
+                    <path stroke-dasharray="14.22" d="M4.822 2.837c31.527 19.86 52.584 55.759 52.584 96.75.007 9.52-1.145 19.004-3.429 28.227" transform="translate(-238 -1256) translate(241 1259) translate(164.444 5.871)"/>
+                    <path d="M53.53 129.583c-.157.595-.32 1.189-.486 1.782" transform="translate(-238 -1256) translate(241 1259) translate(164.444 5.871)"/>
+                </g>
+                <path stroke-dasharray="14.4" d="M0 105.677C0 56.945 30.874 15.472 74 0" opacity=".21" transform="translate(-238 -1256) translate(241 1259)"/>
+                <path stroke-dasharray="14.4" d="M164.444 204.861c-16.308 8.913-34.576 13.568-53.134 13.539-36.354 0-68.645-17.515-88.993-44.62" opacity=".5" transform="translate(-238 -1256) translate(241 1259)"/>
+                <g opacity=".21">
+                    <path d="M147.756 96.914c-.171.587-.349 1.173-.534 1.756" transform="translate(-238 -1256) translate(241 1259) translate(35.238 29.355)"/>
+                    <path stroke-dasharray="14.34" d="M146.035 102.128c-10.68 28.743-38.282 49.218-70.662 49.218C33.747 151.346 0 117.505 0 75.763S33.747.18 75.373.18C91.893.156 107.96 5.6 121.08 15.664" transform="translate(-238 -1256) translate(241 1259) translate(35.238 29.355)"/>
+                    <path d="M122.52 16.784c.476.384.947.772 1.412 1.166" transform="translate(-238 -1256) translate(241 1259) translate(35.238 29.355)"/>
+                </g>
+                <g opacity=".5">
+                    <path d="M.006.67C.627.58 1.248.501 1.868.436" transform="translate(-238 -1256) translate(241 1259) translate(104.54 61.058)"/>
+                    <path stroke-dasharray="13.872" d="M5.432.196h1.086c15.41 0 29.667 8.036 37.47 21.12 7.803 13.085 7.985 29.26.477 42.511" transform="translate(-238 -1256) translate(241 1259) translate(104.54 61.058)"/>
+                    <path d="M43.558 65.349c-.325.522-.66 1.03-1.008 1.528" transform="translate(-238 -1256) translate(241 1259) translate(104.54 61.058)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
