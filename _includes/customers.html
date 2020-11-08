@@ -1,4 +1,10 @@
 <section class="customers">
-    <h4 class="text-secondary text-center font-weight-normal">Some customers we’ve worked with</h4>
-    <p class="text-center">Slider goes here</p>
+    <h4 class="text-info text-center font-weight-normal mb-4">Some customers we’ve worked with</h4>
+    <div class="customers-carousel">
+        {% for item in site.data.carousel.images %}
+            <div class="px-4">
+                <img src="{{ 'assets/images/slides/' | relative_url | append: item.image }}" alt="Customer slide">
+            </div>
+        {% endfor %}
+    </div>
 </section>
