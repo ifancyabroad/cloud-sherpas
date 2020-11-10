@@ -2,9 +2,9 @@ main:
   - name: Home
     link: /#
   - name: About Us
-    link: /about
+    link: /about/
   - name: Services
-    link: /services
+    link: /services/
     sub_navigation:
       - name: Technology Consulting
         link: /#
@@ -15,9 +15,10 @@ main:
       - name: Cyber Security
         link: /#
   - name: Our Team
-    link: /team
+    link: /team/
   - name: Contact Us
-    link: /contact
+    link: /contact/
+    classes: btn btn-outline-white btn-nav mx-3
 social_media:
   - name: Facebook
     link: https://www.facebook.com/

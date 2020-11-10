@@ -40,7 +40,7 @@ $line-height-base: 2;
 $line-height-sm: 1.5;
 $line-height-lg: 2.5;
 
-$h1-font-size: $font-size-root * 4.375;
+$h1-font-size: $font-size-root * 3.75;
 $h2-font-size: $font-size-root * 3;
 $h3-font-size: $font-size-root * 2.125;
 $h4-font-size: $font-size-root * 1.5;
@@ -49,3 +49,7 @@ $h5-font-size: $font-size-root * 1.25;
 $headings-font-weight: 400;
 $headings-line-height: 1.2;
 $headings-color: $primary;
+
+$navbar-nav-link-padding-x: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: #fff;

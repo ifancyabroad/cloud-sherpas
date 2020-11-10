@@ -1,0 +1,23 @@
+.btn-wide {
+    width: 171px;
+}
+
+.btn-nav {
+    width: 150px;
+}
+
+.btn-outline-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-white:hover {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-white:focus,
+.btn-outline-white.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,255,255,0.5);
+}
