@@ -5,12 +5,12 @@
                 <div class="col-md-3">
                     <img class="mb-3" src="{{ 'assets/images/logos/vnk-logo.png' | relative_url }}" alt="VNK Consulting"
                         width="173">
-                    <p class="mb-1"><a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a></p>
+                    <p class="mb-3"><a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a></p>
                     <p><u><a class="text-primary text-large" href="tel:(416) 237-0009">(416) 237-0009</a></u></p>
                 </div>
                 <div class="col-md-3">
                     <h5 class="mb-4">Services</h5>
-                    <ul class="nav flex-column line-height-small">
+                    <ul class="nav flex-column">
                         {% assign services = site.data.navigation.main | where: "name", "Services" | first %}
                         {% for item in services.sub_navigation %}
                         <li class="nav-item">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-3">
                     <h5 class="mb-4">About us</h5>
-                    <ul class="nav flex-column line-height-small">
+                    <ul class="nav flex-column">
                         {% for item in site.data.navigation.main %}
                         <li class="nav-item">
                             <a class="nav-link px-0 {% if page.url == item.link %}active{% endif %}"

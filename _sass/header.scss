@@ -1,22 +1,29 @@
-.jumbotron {
+.header-home {
     min-height: 100vh;
     margin-bottom: 100px;
-
-    .navbar {
-
-        .nav-item {
-            font-size: $font-size-lg;
-            
-            .nav-link:hover,
-            .nav-link:active,
-            &.active .nav-link {
-                text-decoration: underline;
-            }
-        }
-    }
 
     .header-image {
         border-radius: 5px;
         max-height: 70vh;
+    }
+}
+
+.header-page {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.navbar {
+
+    .nav-item {
+        font-size: $font-size-lg;
+        
+        .nav-link:hover,
+        .nav-link:active,
+        &.active .nav-link {
+            text-decoration: underline;
+        }
     }
 }
