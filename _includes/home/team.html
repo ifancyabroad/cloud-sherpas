@@ -5,45 +5,20 @@
                 <h2 class="text-center">The Core Team</h2>
             </div>
         </div>
-        <div class="row mb-4">
-            <div class="col-lg-6">
-                <div class="bg-white rounded border shadow d-flex align-items-center p-4">
-                    <img class="rounded-circle mr-5" src="{{ 'assets/images/team/kobhi.jpg' | relative_url }}" alt="Kobhi - Owner and CEO" width="87">
-                    <div>
-                        <h5>Kobhi</h5>
-                        <p class="mb-0">Owner & CEO</p>
+        {% for member in site.data.team %}
+            {% cycle 'row-start': '<div class="row mb-4">', '' %}
+                <div class="col-lg-6">
+                    <div class="bg-white rounded border shadow d-flex align-items-center p-4">
+                        <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
+                        <div>
+                            <h5>{{ member.name }}</h5>
+                            <p class="mb-0">{{ member.title }}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="bg-white rounded border shadow d-flex align-items-center p-4">
-                    <img class="rounded-circle mr-5" src="{{ 'assets/images/team/nitesh.jpg' | relative_url }}" alt="Nitesh - Sr. Developer" width="87">
-                    <div>
-                        <h5>Nitesh</h5>
-                        <p class="mb-0">Sr. Developer</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-lg-6">
-                <div class="bg-white rounded border shadow d-flex align-items-center p-4">
-                    <img class="rounded-circle mr-5" src="{{ 'assets/images/team/kevin.jpg' | relative_url }}" alt="Kevin - InfoSec Analyst" width="87">
-                    <div>
-                        <h5>Kevin</h5>
-                        <p class="mb-0">InfoSec Analyst</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="bg-white rounded border shadow d-flex align-items-center p-4">
-                    <img class="rounded-circle mr-5" src="{{ 'assets/images/team/nafisa.jpg' | relative_url }}" alt="Nafisa - Accounts Manager" width="87">
-                    <div>
-                        <h5>Nafisa</h5>
-                        <p class="mb-0">Accounts Manager</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            {% if forloop.last %}</div>{% else %}
+            {% cycle 'row-end': '', '</div>' %}
+            {% endif %}
+        {% endfor %}
     </div>
 </section>
