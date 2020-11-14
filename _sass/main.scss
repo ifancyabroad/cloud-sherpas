@@ -56,6 +56,39 @@ h1, h4, h5 {
     padding-bottom: 150px;
 }
 
+.about-services {
+    margin-bottom: 100px;
+}
+
+.service-list {
+    .service {
+        margin-bottom: 140px;
+
+        .service-icon {
+            border-radius: 10px;
+            background-color: rgba(227, 241, 253, 0.6);
+            padding: 80px 80px 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .bar-long {
+                height: 20px;
+                width: 100%;
+                border-radius: 2px;
+                background-color: rgba(0, 64, 113, 0.3);
+            }
+
+            .bar-short {
+                height: 20px;
+                width: 70%;
+                border-radius: 2px;
+                background-color: rgba(0, 64, 113, 0.1);
+            }
+        }
+    }
+}
+
 .other-areas {
     background-image: linear-gradient(to right, #e6eeff, #def4fe);
     padding-top: 90px;
