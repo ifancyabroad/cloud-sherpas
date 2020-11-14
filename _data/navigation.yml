@@ -1,11 +1,13 @@
 main:
   - name: Home
-    link: /#
+    link: /
   - name: About Us
     link: /about/
   - name: Services
     link: /services/
     sub_navigation:
+      - name: Our Services
+        link: /services/
       - name: Technology Consulting
         link: /#
       - name: Software Development

@@ -13,13 +13,12 @@
                 {% for item in site.data.navigation.main %}
                     {% if item.sub_navigation %}
                         <li class="nav-item dropdown {% if page.url == item.link %}active{% endif %}">
-                            <a class="{% if item.classes %}{{ item.classes }}{% else %}nav-link{% endif %} dropdown-toggle" href="{{ item.link | relative_url }}" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="{% if item.classes %}{{ item.classes }}{% else %}nav-link{% endif %} dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ item.name }} {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 {% for sub_item in item.sub_navigation %}
-                                    <a class="dropdown-item" href="{{ sub_item.link }}">{{ sub_item.name }}</a>
+                                    <a class="dropdown-item" href="{{ sub_item.link | relative_url }}">{{ sub_item.name }}</a>
                                 {% endfor %}
                             </div>
                         </li>
