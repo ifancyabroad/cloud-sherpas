@@ -44,6 +44,14 @@ h1, h4, h5 {
 
 .customers {
     margin-bottom: 200px;
+
+}
+
+@include media-breakpoint-down(md) {
+
+    .customers {
+        margin-bottom: 80px; 
+    }
 }
 
 .core-team {
@@ -85,6 +93,15 @@ h1, h4, h5 {
                 border-radius: 2px;
                 background-color: rgba(0, 64, 113, 0.1);
             }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+
+    .service-list {
+        .service {
+            margin-bottom: 60px; 
         }
     }
 }

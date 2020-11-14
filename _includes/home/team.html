@@ -6,8 +6,8 @@
             </div>
         </div>
         {% for member in site.data.team %}
-            {% cycle 'row-start': '<div class="row mb-4">', '' %}
-                <div class="col-lg-6">
+            {% cycle 'row-start': '<div class="row">', '' %}
+                <div class="col-md-6 mb-4">
                     <div class="bg-white rounded border shadow d-flex align-items-center p-4">
                         <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
                         <div>
