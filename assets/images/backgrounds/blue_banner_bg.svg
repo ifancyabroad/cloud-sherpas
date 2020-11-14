@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1700px" height="500px" viewBox="0 0 1700 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button Placeholder</title>
+    <defs>
+        <linearGradient x1="0%" y1="45.6747405%" x2="100%" y2="54.3252595%" id="linearGradient-1">
+            <stop stop-color="#039EE0" offset="0%"></stop>
+            <stop stop-color="#15425C" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="1700" height="500"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VNK-Home" transform="translate(0.000000, -3736.000000)">
+            <g id="Button-Placeholder" transform="translate(0.000000, 3736.000000)">
+                <g id="Group-7">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <circle id="Oval-8" fill="#D8D8D8" opacity="0.0399999991" mask="url(#mask-3)" cx="121" cy="66" r="241"></circle>
+                    <circle id="Oval-8" fill="#D8D8D8" opacity="0.0299999993" mask="url(#mask-3)" cx="-43" cy="362" r="241"></circle>
+                    <text id="D" opacity="0.0399999991" mask="url(#mask-3)" transform="translate(1617.500000, 259.000000) rotate(180.000000) translate(-1617.500000, -259.000000) " font-family="CircularStd-Black, Circular Std" font-size="700" font-weight="700" fill="#233D63">
+                        <tspan x="1363.4" y="514">D</tspan>
+                    </text>
+                </g>
+                <g id="Map" opacity="0.699999988" transform="translate(602.000000, 40.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

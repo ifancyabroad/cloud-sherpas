@@ -1,10 +1,11 @@
 .header-home {
     min-height: 100vh;
     margin-bottom: 100px;
+    background-image: url("/assets/images/backgrounds/home_banner.svg");
+    background-size: cover;
 
     .header-image {
-        border-radius: 5px;
-        max-height: 70vh;
+        height: 70vh;
     }
 }
 
