@@ -1,6 +1,7 @@
 <?php
 $errors = [];
 $errorMessage = '';
+$successMessage = '';
 
 if (!empty($_POST)) {
     // Get variables from AJAX request
@@ -16,7 +17,7 @@ if (!empty($_POST)) {
     }
 
     if (empty($second_name)) {
-        $errors[] = 'First name is empty';
+        $errors[] = 'Second name is empty';
     }
 
     if (empty($email)) {
@@ -42,19 +43,22 @@ if (!empty($_POST)) {
         $bodyParagraphs = [
             "First Name: {$first_name}",
             "Second Name: {$second_name}",
-            "Phone Number: {$number}",
+            "Phone Number: {$phone}",
             "Email: {$email}",
             "Message:", $message
         ];
         $body = join(PHP_EOL, $bodyParagraphs);
 
         if (mail($toEmail, $emailSubject, $body, $headers)) {
-            header('Location: thank-you.html');
+            $successMessage = "<p>Thank you for your message! I will be in touch shortly.</p>";
+            echo $successMessage;
         } else {
-            $errorMessage = 'Oops, something went wrong. Please try again later';
+            $errorMessage = "<p class=\"text-danger\">Oops, something went wrong. Please try again later</p>";
+            die($errorMessage);
         }
     } else {
         $allErrors = join('<br/>', $errors);
-        $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
+        $errorMessage = "<p class=\"text-danger\">{$allErrors}</p>";
+        die($errorMessage);
     }
 }
