@@ -1,0 +1,44 @@
+<section class="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contact">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="firstName" placeholder="First Name*" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="secondName" placeholder="Second Name*" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Email Address*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number*" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea type="email" class="form-control" id="message" placeholder="Enquiry*" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-wide">Send Message</button>
+                </form>
+                <div id="responseContainer"></div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-5">Don’t Hesitate to contact with us for any kind of information</h2>
+                <p class="text-xlarge mb-4">
+                    <img class="mr-3" src="{{ 'assets/images/icons/phone.svg' | relative_url }}" alt="Phone number">
+                    <a class="text-primary" href="tel:1-833-364-0009">1-833-364-0009</a>
+                </p>
+                <p class="text-primary text-xlarge mb-4">
+                    <img class="mr-3" src="{{ 'assets/images/icons/map.svg' | relative_url }}" alt="Address">
+                    1 Yonge St. Suite 1801 Toronto, ON M5E1W7
+                </p>
+                <p class="text-xlarge">
+                    <img class="mr-3" src="{{ 'assets/images/icons/mail.svg' | relative_url }}" alt="Email address">
+                    <a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
