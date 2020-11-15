@@ -38,22 +38,6 @@ h1, h4, h5 {
     background-image: linear-gradient(111deg, #e7eeff, #def5ff);
 }
 
-.services {
-    margin-bottom: 84px;
-}
-
-.customers-home {
-    margin-bottom: 200px;
-
-}
-
-@include media-breakpoint-down(md) {
-
-    .customers-home {
-        margin-bottom: 80px; 
-    }
-}
-
 .core-team {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -64,71 +48,6 @@ h1, h4, h5 {
     padding-bottom: 150px;
     background-image: url("../images/backgrounds/blue_banner_bg.svg");
     background-size: cover;
-}
-
-.about-services {
-    margin-bottom: 100px;
-}
-
-.service-list {
-    .service {
-        margin-bottom: 140px;
-
-        .service-icon {
-            border-radius: 10px;
-            background-color: rgba(227, 241, 253, 0.6);
-            padding: 80px 80px 25px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .bar-long {
-                height: 20px;
-                width: 100%;
-                border-radius: 2px;
-                background-color: rgba(0, 64, 113, 0.3);
-            }
-
-            .bar-short {
-                height: 20px;
-                width: 70%;
-                border-radius: 2px;
-                background-color: rgba(0, 64, 113, 0.1);
-            }
-        }
-    }
-}
-
-@include media-breakpoint-down(md) {
-
-    .service-list {
-        .service {
-            margin-bottom: 60px; 
-        }
-    }
-}
-
-.other-areas {
-    background-image: linear-gradient(to right, #e6eeff, #def4fe);
-    padding-top: 90px;
-    padding-bottom: 100px;
-}
-
-.contact-cta-about {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.about-bg-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.about-image {
-    z-index: 1;
-    position: relative;
 }
 
 .footer-menu {

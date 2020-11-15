@@ -1,0 +1,14 @@
+.services {
+    margin-bottom: 84px;
+}
+
+.customers-home {
+    margin-bottom: 200px;
+}
+
+@include media-breakpoint-down(md) {
+
+    .customers-home {
+        margin-bottom: 80px; 
+    }
+}
