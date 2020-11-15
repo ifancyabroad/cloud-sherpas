@@ -14,7 +14,7 @@ $(document).ready(function() {
         
         const responseContainer = $('#responseContainer');
         const form =$(this);
-        const inputs = contactForm.find("input, button, textarea");
+        const inputs = form.find("input, button, textarea");
 
 		// Serialise the form data
 		const serializedData = form.serialize();
@@ -47,7 +47,7 @@ $(document).ready(function() {
         // if the request failed or succeeded
         request.always(function () {
             // Reenable the inputs
-            $inputs.prop("disabled", false);
+            inputs.prop("disabled", false);
         });
     });
 });
