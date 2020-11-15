@@ -1,8 +1,12 @@
-<section class="core-team {{ include.class }}">
+<section class="bg-secondary-gradient core-team">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col">
-                <h2 class="text-center">The Core Team</h2>
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <div class="team-icon bg-white rounded-circle mx-auto mb-4">
+                    <img src="{{ 'assets/images/icons/social.svg' | relative_url }}" alt="Team">
+                </div>
+                <h5 class="text-info spaced mb-5">MEET THE CORE TEAM</h5>
+                <h2>Be Part of the team that makes great things happen</h2>
             </div>
         </div>
         {% for member in site.data.team %}

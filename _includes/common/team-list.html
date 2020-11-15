@@ -1,0 +1,24 @@
+<section class="team {{ include.class }}">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <h2 class="text-center">The Core Team</h2>
+            </div>
+        </div>
+        {% for member in site.data.team limit:4 %}
+            {% cycle 'row-start': '<div class="row justify-content-center">', '' %}
+                <div class="col-md-5 mb-4">
+                    <div class="bg-white rounded border shadow d-flex align-items-center p-4">
+                        <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
+                        <div>
+                            <h5>{{ member.name }}</h5>
+                            <p class="mb-0">{{ member.title }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% if forloop.last %}</div>{% else %}
+            {% cycle 'row-end': '', '</div>' %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
