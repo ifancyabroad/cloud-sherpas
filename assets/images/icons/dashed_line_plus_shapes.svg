@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="988px" height="527px" viewBox="0 0 988 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VNK-Home" transform="translate(-308.000000, -1819.000000)">
+            <g id="Group-8" transform="translate(309.000000, 1820.000000)">
+                <g id="Group-7">
+                    <path d="M1.12664639,0 C-9.01079283,255.998668 49.263433,368.998029 175.949324,338.998082 C365.97816,293.998163 983.560128,170.298754 933.076845,445" id="Path-63" stroke="#C6DCEA" stroke-dasharray="4,6" fill-rule="nonzero"></path>
+                    <path d="M941.99959,244.887518 C965.217523,254.438632 978.612093,268.275966 982.183298,286.39952" id="Path-65" stroke="#EAF3FD" stroke-width="2" fill-rule="nonzero" transform="translate(962.091444, 265.643519) rotate(9.000000) translate(-962.091444, -265.643519) "></path>
+                    <g id="Shape-Copy" transform="translate(42.000000, 167.000000)" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Group-6">
+                            <path d="M208,183.001122 C208,185.75982 205.761563,188 202.997755,188 C200.238437,188 198,185.75982 198,183.001122 C198,180.24018 200.238437,178 202.997755,178 C205.761563,178 208,180.24018 208,183.001122 Z" id="Stroke-6" stroke="#FDE89F" stroke-width="1.963"></path>
+                            <g id="Group-9" transform="translate(298.000000, 36.000000)" stroke="#FF969C" stroke-width="2.328">
+                                <line x1="10.67198" y1="0.120072727" x2="10.67198" y2="20.7775273" id="Stroke-7"></line>
+                                <line x1="21.08766" y1="10.4474909" x2="0.25806" y2="10.4474909" id="Stroke-8"></line>
+                            </g>
+                            <path d="M780,187.998954 C780,190.209673 778.211297,192 776,192 C773.790795,192 772,190.209673 772,187.998954 C772,185.790327 773.790795,184 776,184 C778.211297,184 780,185.790327 780,187.998954 Z" id="Stroke-10" stroke="#BDEDE8" stroke-width="2.328"></path>
+                            <polygon id="Stroke-12" stroke="#F09FFD" stroke-width="1.477" points="16 350.553168 7.44903581 358 0 349.449036 8.55096419 342"></polygon>
+                            <polygon id="Stroke-13" stroke="#9FC3FD" stroke-width="1.477" points="616.068767 0 618 7.06832298 610.931233 9 609 1.93167702"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <path d="M29,347 C46.0837994,381.666667 75.7504661,393.222222 118,381.666667" id="Path-64" stroke="#EAF3FD" stroke-width="2" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

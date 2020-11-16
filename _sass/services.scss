@@ -1,5 +1,13 @@
 .about-services {
     margin-bottom: 100px;
+
+    .bg-line-services {
+        position: absolute;
+        left: 50%;
+        top: -240px;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
 }
 
 .service-list {

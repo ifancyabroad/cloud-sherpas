@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="988px" height="1239px" viewBox="0 0 988 1239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Line Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VNK-Home" transform="translate(-308.000000, -1819.000000)" fill-rule="nonzero">
+            <g id="Line-Shape" transform="translate(309.000000, 1820.000000)">
+                <path d="M1.12664639,0 C-9.01079283,255.998668 49.263433,368.998029 175.949324,338.998082 C365.97816,293.998163 983.560128,170.298754 933.076845,445" id="Path-63" stroke="#C6DCEA" stroke-dasharray="4,6"></path>
+                <path d="M29,347 C46.0837994,381.666667 75.7504661,393.222222 118,381.666667" id="Path-64" stroke="#EAF3FD" stroke-width="2"></path>
+                <path d="M842,999 C831.944687,1082.54989 800.119559,1127.41229 746.524617,1133.58718 C666.132204,1142.84953 279.181671,1028.12711 195.209313,1028.12711 C111.236956,1028.12711 19.347599,1039.59425 51.613995,1237" id="Path-67" stroke="#CED7EA" stroke-dasharray="4,6"></path>
+                <path d="M781,1158 C806.121604,1158 823.454937,1148 833,1128" id="Path-70" stroke="#ECEFF8" stroke-width="2"></path>
+                <path d="M103,1123 C110.527865,1091.93472 130.861199,1077.31918 164,1079.15339" id="Path-71" stroke="#F2F4FF" stroke-width="2"></path>
+                <path d="M941.99959,244.887518 C965.217523,254.438632 978.612093,268.275966 982.183298,286.39952" id="Path-65" stroke="#EAF3FD" stroke-width="2" transform="translate(962.091444, 265.643519) rotate(9.000000) translate(-962.091444, -265.643519) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
