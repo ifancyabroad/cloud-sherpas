@@ -1,3 +1,14 @@
 .contact-form {
     margin-bottom: 100px;
 }
+
+@include media-breakpoint-down(md) {
+
+    .contact-form {
+        margin-bottom: 40px; 
+    }
+}
+
+#mapid {
+    height: 477px;
+}

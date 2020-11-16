@@ -13,7 +13,11 @@
             {% cycle 'row-start': '<div class="row justify-content-center">', '' %}
                 <div class="col-md-5 mb-4">
                     <div class="bg-white rounded border shadow d-flex align-items-center p-4">
-                        <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
+                        {% if member.image %}
+                            <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
+                        {% else %}
+                            <div class="profile-placeholder rounded-circle bg-primary mr-5"></div>
+                        {% endif %}
                         <div>
                             <h5>{{ member.name }}</h5>
                             <p class="mb-0">{{ member.title }}</p>
