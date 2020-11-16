@@ -16,6 +16,9 @@
                             <a class="{% if item.classes %}{{ item.classes }}{% else %}nav-link{% endif %} dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ item.name }} {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
                             </a>
+                            {% if item.classes == nil %}
+                                <div class="underline"></div>
+                            {% endif %}
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 {% for sub_item in item.sub_navigation %}
                                     <a class="dropdown-item" href="{{ sub_item.link | relative_url }}">{{ sub_item.name }}</a>
@@ -24,7 +27,12 @@
                         </li>
                     {% else %}
                         <li class="nav-item {% if page.url == item.link %}active{% endif %}">
-                            <a class="{% if item.classes %}{{ item.classes }}{% else %}nav-link{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }} {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}</a>
+                            <a class="{% if item.classes %}{{ item.classes }}{% else %}nav-link{% endif %}" href="{{ item.link | relative_url }}">
+                                {{ item.name }} {% if page.url == item.link %}<span class="sr-only">(current)</span>{% endif %}
+                            </a>
+                            {% if item.classes == nil %}
+                                <div class="underline"></div>
+                            {% endif %}
                         </li>
                     {% endif %}
                 {% endfor %}

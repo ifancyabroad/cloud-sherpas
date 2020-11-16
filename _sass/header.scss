@@ -20,11 +20,22 @@
 
     .nav-item {
         font-size: $font-size-lg;
-        
-        .nav-link:hover,
-        .nav-link:active,
-        &.active .nav-link {
-            text-decoration: underline;
+
+        .underline {
+            position: relative;
+            top: -6px;
+            background-color: #fff;
+            height: 2px;
+            width: 0;
+            transition: width 0.4s;
+            margin: auto;
+        }
+
+        &:hover .underline,
+        &:active .underline,
+        &.active .underline {
+            width: 80%;
         }
     }
+
 }
