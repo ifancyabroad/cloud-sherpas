@@ -1,7 +1,7 @@
 $(document).ready(function() {
     const mymap = L.map('mapid', {
         scrollWheelZoom: false
-    }).setView([51.505, -0.09], 13);
+    }).setView([43.642730, -79.374090], 13);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWRnYXItbmlnaHRpbmdhbGUiLCJhIjoiY2toa2VvdWRmMjJuYTJ6bDYwZmsxYTE2ZyJ9.eJJmuqdGS8LqW9g-8qfKkw', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -12,6 +12,6 @@ $(document).ready(function() {
         accessToken: 'pk.eyJ1IjoiZWRnYXItbmlnaHRpbmdhbGUiLCJhIjoiY2toa2VvdWRmMjJuYTJ6bDYwZmsxYTE2ZyJ9.eJJmuqdGS8LqW9g-8qfKkw'
     }).addTo(mymap);
 
-    const marker = L.marker([51.5, -0.09]).addTo(mymap);
-    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    const marker = L.marker([43.642730, -79.374090]).addTo(mymap);
+    marker.bindPopup("<b>VNK Offices</b><br>1 Yonge St.<br>Suite 1801<br>Toronto<br>ON M5E1W7");
 });
