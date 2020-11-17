@@ -1,10 +1,10 @@
 <header class="header-page jumbotron jumbotron-fluid overflow-hidden {{ include.class }}"
     style="background-image: url({{ 'assets/images/header/' | relative_url | append: page.header_image }})">
-    {% include common/navigation.html %}
+    {% include common/navigation.html class='navbar-margin' %}
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-10 text-center" data-aos="fade-up">
+            <div class="col-lg-10 text-center" data-aos="fade-left">
                 <h1 class="text-white mb-4">{{ page.header_title }}</h1>
                 <p class="text-xlarge text-white">{{ page.header_text }}</p>
             </div>

@@ -18,6 +18,10 @@
 
 .navbar {
 
+    &.navbar-margin {
+        margin-bottom: 100px;
+    }
+
     .nav-item {
         font-size: $font-size-lg;
 
