@@ -1,5 +1,5 @@
-<header class="header-page jumbotron jumbotron-fluid overflow-hidden {{ include.class }}"
-    style="background-image: url({{ 'assets/images/header/' | relative_url | append: page.header_image }})">
+<header class="header-page jumbotron jumbotron-fluid overflow-hidden {{ include.class }}" data-parallax="scroll"
+    data-image-src="{{ 'assets/images/header/' | relative_url | append: page.header_image }}">
     {% include common/navigation.html class='navbar-margin' %}
 
     <div class="container">
