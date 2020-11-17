@@ -1,0 +1,24 @@
+<section class="environments bg-secondary-gradient">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-9 text-center" data-aos="fade-up">
+                <h5 class="text-info spaced mb-3">VNK CONSULTANTS</h5>
+                <h2 class="mb-4">Software Environments</h2>
+                <p>We’re comfortable and excel in just about any kind of software environment, coding language, or API you can imagine.  Ask us about our work in these and other platforms:</p>
+            </div>
+        </div>
+        {% for environment in site.data.environments %}
+            {% cycle 'row-start': '<div class="row justify-content-center">', '', '' %}
+                <div class="col-lg-3" data-aos="zoom-in-up" {% cycle '', 'data-aos-delay="100"', 'data-aos-delay="200"' %}>
+                    <div class="environment-card bg-white rounded pt-5 p-4 mb-4">
+                        <img class="mb-4" src="{{ 'assets/images/icons/' | relative_url | append: environment.image }}" alt="{{ environment.name }}">
+                        <h4 class="text-info mb-3">{{ environment.name }}</h4>
+                        <p class="text-small font-weight-light text-grey mb-0">{{ environment.platforms }}</p>
+                    </div>
+                </div>
+            {% if forloop.last %}</div>{% else %}
+            {% cycle 'row-end': '', '', '</div>' %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>

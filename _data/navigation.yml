@@ -9,16 +9,16 @@ main:
       - name: Technology Consulting
         link: /services/
       - name: Software Development
-        link: /#
+        link: /software/
       - name: IT-Infrastructure
-        link: /#
+        link: /infrastructure/
       - name: Cyber Security
-        link: /#
+        link: /security/
   - name: Our Team
     link: /team/
   - name: Contact Us
     link: /contact/
-    classes: btn btn-outline-white btn-nav mx-3
+    classes: btn btn-outline-white btn-nav mx-md-3
 social_media:
   - name: Facebook
     link: https://www.facebook.com/

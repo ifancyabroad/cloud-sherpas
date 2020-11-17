@@ -1,0 +1,18 @@
+- name: Mobile
+  platforms: iOS, Android, and Windows mobile platforms.
+  image: mobile.svg
+- name: Web
+  platforms: HTML5, CSS4, PHP5, MySQL, LAMP, JQuery, Java, Ruby on Rails, Drupal, Python, Node JS, XML, JSON.
+  image: web.svg
+- name: Microsoft
+  platforms: C#.NET, VB.NET, ASP.NET, Visual C++, MVC, MVVM, Entity Framework, MS Sharepoint.
+  image: microsoft.svg
+- name: Cloud
+  platforms: Cloud computing, Amazon EC2, Microsoft Azure, VMware, Zen, KVM.
+  image: cloud.svg
+- name: Database
+  platforms: MySQL, MS SQL Server, Oracle, MongoDB, Maria DB.
+  image: database.svg
+- name: Server-Side
+  platforms: Linux, Microsoft Server Administration.
+  image: server.svg
