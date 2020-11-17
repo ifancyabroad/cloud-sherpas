@@ -2,13 +2,13 @@
     <div class="container">
         {% for service in site.services %}
             <div class="row justify-content-center service">
-                <div class="col-md-5 {% cycle '', 'order-md-1' %}">
+                <div class="col-md-5 {% cycle '', 'order-md-1' %}" data-aos="fade-up" {% cycle '', 'data-aos-delay="100"' %}>
                     <div class="px-3">
                         <h2 class="mb-4">{{ service.name }}</h2>
                         {{ service.content }}
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-up" {% cycle 'data-aos-delay="100"', '' %}>
                     <div class="service-icon">
                         <img class="mb-4" src="{{ 'assets/images/icons/' | relative_url | append: service.icon }}" alt="{{ service.name }}">
                         <div class="bar-long mb-3"></div>

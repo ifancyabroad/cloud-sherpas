@@ -7,7 +7,7 @@
         </div>
         {% for member in site.data.team limit:4 %}
             {% cycle 'row-start': '<div class="row justify-content-center">', '' %}
-                <div class="col-md-5 mb-4" data-aos="fade-left">
+                <div class="col-md-5 mb-4" data-aos="zoom-in-up" {% cycle '', 'data-aos-delay="100"' %}>
                     <div class="bg-white rounded border shadow d-flex align-items-center p-4">
                         <img class="rounded-circle mr-5" src="{{ 'assets/images/team/' | relative_url | append: member.image }}" alt="{{ member.name }}" width="87">
                         <div>
