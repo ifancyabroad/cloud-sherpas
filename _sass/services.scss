@@ -106,3 +106,43 @@
         }
     }
 }
+
+.security-icon {
+    height: 146px;
+    width: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #76caee;
+}
+
+.we-secure {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .security-card {
+        max-width: 393px;
+        box-shadow: 0 35px 70px 0 rgba(78, 81, 144, 0.07);
+    }
+}
+
+.approach {
+    padding-top: 100px;
+    padding-bottom: 120px;
+
+    .approach-card {
+        box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.08);
+
+        .progress-circle {
+            min-height: 86px;
+            min-width: 80px;
+
+            .progress-percentage {
+                position: absolute;
+                top: 48%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
