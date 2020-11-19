@@ -1,13 +1,17 @@
-.about-services {
-    margin-bottom: 100px;
+.bg-line-services {
+    position: absolute;
+    left: 50%;
+    top: -240px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
 
-    .bg-line-services {
-        position: absolute;
-        left: 50%;
-        top: -240px;
-        transform: translateX(-50%);
-        z-index: -1;
-    }
+.bg-shapes-services {
+    position: absolute;
+    left: 50%;
+    top: -240px;
+    transform: translateX(-50%);
+    z-index: -1;
 }
 
 .service-list {
@@ -48,62 +52,25 @@
     }
 }
 
-.other-areas {
-    background-image: linear-gradient(to right, #e6eeff, #def4fe);
-    padding-top: 90px;
-    padding-bottom: 100px;
+.environment-card {
+    box-shadow: 0 25px 49px 0 rgba(78, 81, 144, 0.07);
 }
 
-.about-software {
-    position: relative;
-    z-index: -101;
-
-    .bg-shapes-services {
-        position: absolute;
-        left: 50%;
-        top: -240px;
-        transform: translateX(-50%);
-        z-index: -1;
-    }
-}
-
-.environments {
-    padding-top: 120px;
-    padding-bottom: 80px;
+@include media-breakpoint-up(lg) {
 
     .environment-card {
-        box-shadow: 0 25px 49px 0 rgba(78, 81, 144, 0.07);
+        height: 300px;
     }
+}
+
+.infrastructure-card {
+    box-shadow: 0 25px 49px 0 rgba(78, 81, 144, 0.07);
 }
 
 @include media-breakpoint-up(lg) {
-
-    .environments {
-        .environment-card {
-            height: 300px;
-        }
-    }
-}
-
-.infrastructure-solutions {
-    padding-top: 100px;
-    padding-bottom: 120px;
-
-    .section-margin {
-        margin-bottom: 100px;
-    }
 
     .infrastructure-card {
-        box-shadow: 0 25px 49px 0 rgba(78, 81, 144, 0.07);
-    }
-}
-
-@include media-breakpoint-up(lg) {
-
-    .infrastructure-solutions {
-        .infrastructure-card {
-            height: 350px;
-        }
+        height: 350px;
     }
 }
 
@@ -116,33 +83,23 @@
     border: solid 2px #76caee;
 }
 
-.we-secure {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-    .security-card {
-        max-width: 393px;
-        box-shadow: 0 35px 70px 0 rgba(78, 81, 144, 0.07);
-    }
+.security-card {
+    max-width: 393px;
+    box-shadow: 0 35px 70px 0 rgba(78, 81, 144, 0.07);
 }
 
-.approach {
-    padding-top: 100px;
-    padding-bottom: 120px;
+.approach-card {
+    box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.08);
 
-    .approach-card {
-        box-shadow: 0 15px 30px 0 rgba(101, 105, 167, 0.08);
+    .progress-circle {
+        min-height: 86px;
+        min-width: 80px;
 
-        .progress-circle {
-            min-height: 86px;
-            min-width: 80px;
-
-            .progress-percentage {
-                position: absolute;
-                top: 48%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
+        .progress-percentage {
+            position: absolute;
+            top: 48%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     }
 }

@@ -47,27 +47,24 @@ h1, h4, h5 {
     background-image: linear-gradient(111deg, #e7eeff, #def5ff);
 }
 
-.team {
+.section-padding {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.contact-cta {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background-image: url("../images/backgrounds/blue_banner_bg.svg");
-    background-size: cover;
+.section-margin {
+    margin-bottom: 100px;
 }
 
-.footer-menu {
-    padding-top: 130px;
-    padding-bottom: 80px;
+.behind-header {
+    position: relative;
+    z-index: -101;
 }
 
 @include media-breakpoint-down(md) {
 
-    .footer-menu {
-        padding-top: 40px;
-        padding-bottom: 40px;
+    .section-padding {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
