@@ -11,7 +11,7 @@
             {% cycle 'row-start': '<div class="row justify-content-center">', '', '' %}
                 <div class="col-lg-3" data-aos="zoom-in-up" {% cycle '', 'data-aos-delay="100"', 'data-aos-delay="200"' %}>
                     <div class="environment-card bg-white rounded pt-5 p-4 mb-4">
-                        <img class="mb-4" src="{{ 'assets/images/icons/' | relative_url | append: environment.image }}" alt="{{ environment.name }}">
+                        <img class="mb-4" src="{{ 'assets/images/icons/' | relative_url | append: environment.image }}" alt="{{ environment.name }}" height="80">
                         <h4 class="text-info mb-3">{{ environment.name }}</h4>
                         <p class="text-xsmall font-weight-light text-gray mb-0">{{ environment.platforms }}</p>
                     </div>
