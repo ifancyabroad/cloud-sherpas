@@ -33,8 +33,17 @@
                 </div>
                 <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
                     <h5 class="mb-4">Our Address</h5>
-                    <p>1 Yonge St. Suite 1801<br>Toronto, ON M5E1W7</p>
-                    <img src="{{ 'assets/images/logos/proudly_canadian.jpg' | relative_url }}" alt="Proudly Canadian" width="173">
+                    <p class="mb-4">1 Yonge St. Suite 1801<br>Toronto, ON M5E1W7</p>
+                    <ul class="list-unstyled d-flex mb-4">
+                        {% for item in site.data.navigation.social_media %}
+                            <li class="mr-3">
+                                <a href="{{ item.link }}" target="_blank">
+                                    <img class="social-link" src="{{ 'assets/images/icons/' | relative_url | append: item.icon }}" alt="{{ item.name }}">
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <img src="{{ 'assets/images/logos/proudly_canadian.jpg' | relative_url }}" alt="Proudly Canadian">
                 </div>
             </div>
         </div>

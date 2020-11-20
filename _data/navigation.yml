@@ -21,11 +21,8 @@ main:
     classes: btn btn-outline-white btn-nav mx-md-3
 social_media:
   - name: Facebook
-    link: https://www.facebook.com/
-    font_awesome: fab fa-facebook-f
-  - name: Twitter
-    link: https://twitter.com/
-    font_awesome: fab fa-twitter
-  - name: Instagram
-    link: https://www.instagram.com/
-    font_awesome: fab fa-instagram
+    link: https://www.facebook.com/vnkconsulting/
+    icon: facebook.svg
+  - name: Linked In
+    link: https://www.linkedin.com/
+    icon: linkedin.svg
