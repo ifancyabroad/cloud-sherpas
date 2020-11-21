@@ -36,9 +36,13 @@ if (!empty($_POST)) {
 
     // Send the e-mail
     if (empty($errors)) {
-        $toEmail = 'edgar.nightingale@btinternet.com';
+        $toEmail = 'info@vnkconsult.com';
         $emailSubject = 'New email from your contact form';
-        $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+        $headers =
+            "From: {$email}" . "\r\n" .
+            "Reply-To: {$email}" . "\r\n" .
+            // "Content-type: text/html; charset=iso-8859-1" . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
 
         $bodyParagraphs = [
             "First Name: {$first_name}",
@@ -50,7 +54,7 @@ if (!empty($_POST)) {
         $body = join(PHP_EOL, $bodyParagraphs);
 
         if (mail($toEmail, $emailSubject, $body, $headers)) {
-            $successMessage = "<p>Thank you for your message! I will be in touch shortly.</p>";
+            $successMessage = "<p class=\"text-success\">Thank you for your message! We will be in touch shortly.</p>";
             echo $successMessage;
         } else {
             $errorMessage = "<p class=\"text-danger\">Oops, something went wrong. Please try again later</p>";

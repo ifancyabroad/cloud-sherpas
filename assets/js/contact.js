@@ -33,12 +33,13 @@ $(document).ready(function() {
 
 		// Display thank you message if request sent successfully
 	    request.done(function (response, textStatus, jqXHR){
+            form[0].reset();
 	        responseContainer.html(response);
 	    });
 
 	    // Inform user if message fails to send
 	    request.fail(function (jqXHR, textStatus, errorThrown){
-	       	responseContainer.html('<p class="text-danger mt-3">Sorry there was an error sending your message, please e-mail me directly at <a href="mailto:edgar.nightingale@btinternet.com" class="email">edgar.nightingale@btinternet.com</a> instead.</p>');
+	       	responseContainer.html('<p class="text-danger mt-3">Sorry there was an error sending your message, please e-mail us directly at <a href="mailto:info@vnkconsult.com" class="email">info@vnkconsult.com</a> instead.</p>');
 	        // Log the error to the console
 	        console.error("The following error occurred: " + textStatus, errorThrown);
         });
