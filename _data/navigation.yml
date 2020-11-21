@@ -18,7 +18,7 @@ main:
     link: /team/
   - name: Contact Us
     link: /contact/
-    classes: btn btn-outline-white btn-nav mx-md-3
+    classes: btn btn-outline-white btn-nav mx-lg-3
 social_media:
   - name: Facebook
     link: https://www.facebook.com/vnkconsulting/
