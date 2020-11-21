@@ -2,7 +2,13 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8" data-aos="fade-up">
-                <h3 class="text-white mb-5">Whether you need application development, network infrastructure or perhaps a security audit, contact us for a FREE consultation.</h3>
+                <h3 class="text-white mb-5">
+                    {% if page.contact_text %}
+                        {{ page.contact_text }}
+                    {% else %}
+                        Whether you need application development, network infrastructure or perhaps a security audit, contact us for a FREE consultation.
+                    {% endif %}
+                </h3>
                 <a href="{{ '/contact' | relative_url }}">
                     <button class="btn btn-outline-white btn-wide">Contact Us</button>
                 </a>
