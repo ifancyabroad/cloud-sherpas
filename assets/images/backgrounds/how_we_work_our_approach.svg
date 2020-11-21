@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="622px" height="224px" viewBox="0 0 622 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="VNK-Application-&amp;-Network-Security" transform="translate(-813.000000, -2296.000000)">
+            <g id="Group-2" transform="translate(334.000000, 2298.000000)">
+                <g id="Group" transform="translate(479.000000, 0.000000)">
+                    <g id="Shape" transform="translate(1.000000, 0.000000)">
+                        <path d="M61,45.0011223 C61,47.7598204 58.7615626,50 55.9977548,50 C53.2384374,50 51,47.7598204 51,45.0011223 C51,42.2401796 53.2384374,40 55.9977548,40 C58.7615626,40 61,42.2401796 61,45.0011223 Z" id="Stroke-6" stroke="#FDE89F" stroke-width="1.963"></path>
+                        <g id="Group-9" transform="translate(307.000000, 0.000000)" stroke="#FF969C" stroke-width="2.328">
+                            <line x1="9.21671" y1="0.103699174" x2="9.21671" y2="17.9442281" id="Stroke-7"></line>
+                            <line x1="18.21207" y1="9.02283306" x2="0.22287" y2="9.02283306" id="Stroke-8"></line>
+                        </g>
+                        <path d="M619,204.998954 C619,207.209673 617.211297,209 615,209 C612.790795,209 611,207.209673 611,204.998954 C611,202.790327 612.790795,201 615,201 C617.211297,201 619,202.790327 619,204.998954 Z" id="Stroke-10" stroke="#BDEDE8" stroke-width="2.328"></path>
+                        <polygon id="Stroke-12" stroke="#F09FFD" stroke-width="1.477" points="16 213.553168 7.44903581 221 0 212.449036 8.55096419 205"></polygon>
+                        <polygon id="Stroke-13" stroke="#9FC3FD" stroke-width="1.477" points="554.068767 36 556 43.068323 548.931233 45 547 37.931677"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

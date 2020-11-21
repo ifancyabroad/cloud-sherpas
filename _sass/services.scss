@@ -47,6 +47,11 @@
     }
 }
 
+.bg-shapes-solutions {
+    top: 40%;
+    z-index: 0;
+}
+
 .infrastructure-card {
     box-shadow: 0 25px 49px 0 rgba(78, 81, 144, 0.07);
 }
@@ -70,6 +75,10 @@
 .security-card {
     max-width: 393px;
     box-shadow: 0 35px 70px 0 rgba(78, 81, 144, 0.07);
+}
+
+.bg-shapes-approach {
+    top: 30px;
 }
 
 .approach-card {

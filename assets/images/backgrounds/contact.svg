@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1184px" height="480px" viewBox="0 0 1184 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="VNK-Contact" transform="translate(-209.000000, -715.000000)">
+            <g id="Group" transform="translate(210.000000, 716.000000)">
+                <g id="Group-6">
+                    <path d="M208,183.001122 C208,185.75982 205.761563,188 202.997755,188 C200.238437,188 198,185.75982 198,183.001122 C198,180.24018 200.238437,178 202.997755,178 C205.761563,178 208,180.24018 208,183.001122 Z" id="Stroke-6" stroke="#FDE89F" stroke-width="1.963"></path>
+                    <g id="Group-9" transform="translate(298.000000, 36.000000)" stroke="#FF969C" stroke-width="2.328">
+                        <line x1="10.67198" y1="0.120072727" x2="10.67198" y2="20.7775273" id="Stroke-7"></line>
+                        <line x1="21.08766" y1="10.4474909" x2="0.25806" y2="10.4474909" id="Stroke-8"></line>
+                    </g>
+                    <path d="M660,447.998954 C660,450.209673 658.211297,452 656,452 C653.790795,452 652,450.209673 652,447.998954 C652,445.790327 653.790795,444 656,444 C658.211297,444 660,445.790327 660,447.998954 Z" id="Stroke-10" stroke="#BDEDE8" stroke-width="2.328"></path>
+                    <polygon id="Stroke-12" stroke="#F09FFD" stroke-width="1.477" points="16 350.553168 7.44903581 358 0 349.449036 8.55096419 342"></polygon>
+                    <polygon id="Stroke-13" stroke="#9FC3FD" stroke-width="1.477" points="616.068767 0 618 7.06832298 610.931233 9 609 1.93167702"></polygon>
+                </g>
+                <g id="Group-6" transform="translate(891.000000, 239.000000) scale(-1, 1) translate(-891.000000, -239.000000) translate(600.000000, 0.000000)">
+                    <path d="M10,183.001122 C10,185.75982 7.76156264,188 4.99775483,188 C2.23843736,188 0,185.75982 0,183.001122 C0,180.24018 2.23843736,178 4.99775483,178 C7.76156264,178 10,180.24018 10,183.001122 Z" id="Stroke-6" stroke="#FDE89F" stroke-width="1.963"></path>
+                    <g id="Group-9" transform="translate(100.000000, 36.000000)" stroke="#FF969C" stroke-width="2.328">
+                        <line x1="10.67198" y1="0.120072727" x2="10.67198" y2="20.7775273" id="Stroke-7"></line>
+                        <line x1="21.08766" y1="10.4474909" x2="0.25806" y2="10.4474909" id="Stroke-8"></line>
+                    </g>
+                    <path d="M582,187.998954 C582,190.209673 580.211297,192 578,192 C575.790795,192 574,190.209673 574,187.998954 C574,185.790327 575.790795,184 578,184 C580.211297,184 582,185.790327 582,187.998954 Z" id="Stroke-10" stroke="#BDEDE8" stroke-width="2.328"></path>
+                    <polygon id="Stroke-12" stroke="#F09FFD" stroke-width="1.477" points="68 470.553168 59.4490358 478 52 469.449036 60.5509642 462"></polygon>
+                    <polygon id="Stroke-13" stroke="#9FC3FD" stroke-width="1.477" points="418.068767 0 420 7.06832298 412.931233 9 411 1.93167702"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

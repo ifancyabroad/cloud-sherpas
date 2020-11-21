@@ -4,7 +4,12 @@
 }
 
 .contact-form {
+    position: relative;
     margin-bottom: 100px;
+
+    .bg-shapes-contact {
+        top: -70px;
+    }
 }
 
 @include media-breakpoint-down(md) {

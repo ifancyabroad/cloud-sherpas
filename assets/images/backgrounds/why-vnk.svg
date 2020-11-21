@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="783px" height="615px" viewBox="0 0 783 615" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape Copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="VNK-Infrastructure" transform="translate(-737.000000, -2145.000000)">
+            <g id="Graphics" transform="translate(265.000000, 2147.000000)">
+                <g id="Shape-Copy" transform="translate(473.000000, 0.000000)">
+                    <path d="M138,128.001122 C138,130.75982 135.761563,133 132.997755,133 C130.238437,133 128,130.75982 128,128.001122 C128,125.24018 130.238437,123 132.997755,123 C135.761563,123 138,125.24018 138,128.001122 Z" id="Stroke-6" stroke="#FDE89F" stroke-width="1.963"></path>
+                    <g id="Group-9" transform="translate(298.000000, 0.000000)" stroke="#FF969C" stroke-width="2.328">
+                        <line x1="10.67198" y1="0.120072727" x2="10.67198" y2="20.7775273" id="Stroke-7"></line>
+                        <line x1="21.08766" y1="10.4474909" x2="0.25806" y2="10.4474909" id="Stroke-8"></line>
+                    </g>
+                    <path d="M780,211.998954 C780,214.209673 778.211297,216 776,216 C773.790795,216 772,214.209673 772,211.998954 C772,209.790327 773.790795,208 776,208 C778.211297,208 780,209.790327 780,211.998954 Z" id="Stroke-10" stroke="#BDEDE8" stroke-width="2.328"></path>
+                    <polygon id="Stroke-12" stroke="#F09FFD" stroke-width="1.477" points="16 604.553168 7.44903581 612 0 603.449036 8.55096419 596"></polygon>
+                    <polygon id="Stroke-13" stroke="#9FC3FD" stroke-width="1.477" points="616.068767 24 618 31.068323 610.931233 33 609 25.931677"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
