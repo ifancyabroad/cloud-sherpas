@@ -1,8 +1,6 @@
 main:
   - name: Home
     link: /
-  - name: About Us
-    link: /about/
   - name: Services
     link: /services/
     sub_navigation:
@@ -16,6 +14,8 @@ main:
         link: /security/
   - name: Our Team
     link: /team/
+  - name: About Us
+    link: /about/
   - name: Contact Us
     link: /contact/
     classes: btn btn-outline-white btn-nav mx-lg-3

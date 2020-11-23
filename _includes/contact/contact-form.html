@@ -1,7 +1,4 @@
-<section class="contact-form behind-header">
-    <div class="bg-shapes bg-shapes-contact">
-        <img src="{{ 'assets/images/backgrounds/contact.svg' | relative_url }}" alt="Background shapes">
-    </div>
+<section class="contact-form">
     <div class="container">
         <div class="row">
             <div class="col-md-6 mb-5 mb-md-0">
@@ -23,23 +20,25 @@
                     <div class="form-group">
                         <textarea type="email" class="form-control" name="message" placeholder="Enquiry*" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-wide">Send Message</button>
+                    <div class="g-recaptcha mb-3" data-sitekey="6Le_ieoZAAAAAHOM6_SG3Bj68xkwtX1dkJBdkKE8" data-callback="enableBtn"></div>
+                    <button type="submit" class="btn btn-primary btn-wide" disabled>Send Message</button>
                 </form>
-                <div id="responseContainer" class="mt-3"></div>
+                <p id="successMessage" class="text-success mt-3">Thank you for your message! We will be in touch shortly.</p>
+                <p id="errorMessage" class="text-danger mt-3">Oops, something went wrong. Please try again later.</p>
             </div>
             <div class="col-md-6">
                 <h2 class="mb-5">Don’t Hesitate to contact with us for any kind of information</h2>
                 <p class="text-xlarge mb-4">
-                    <img class="mr-3" src="{{ 'assets/images/icons/phone.svg' | relative_url }}" alt="Phone number">
+                    <img class="mr-3" src="{{ 'assets/images/icons/phone.svg' | relative_url }}" alt="Local phone number">
+                    <a class="text-primary" href="tel:0014162370009">(416) 237-0009</a>
+                </p>
+                <p class="text-xlarge mb-4">
+                    <img class="mr-3" src="{{ 'assets/images/icons/phone.svg' | relative_url }}" alt="Toll free phone number">
                     <a class="text-primary" href="tel:0018333640009">1-833-364-0009</a>
                 </p>
                 <p class="text-primary text-xlarge mb-4">
                     <img class="mr-3" src="{{ 'assets/images/icons/map.svg' | relative_url }}" alt="Address">
                     1 Yonge St. Suite 1801 Toronto, ON M5E1W7
-                </p>
-                <p class="text-xlarge">
-                    <img class="mr-3" src="{{ 'assets/images/icons/mail.svg' | relative_url }}" alt="Email address">
-                    <a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a>
                 </p>
             </div>
         </div>

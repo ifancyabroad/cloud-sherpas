@@ -6,11 +6,11 @@
 .contact-form {
     position: relative;
     margin-bottom: 100px;
-
 }
 
-.bg-shapes-contact {
-    top: -70px;
+#successMessage,
+#errorMessage {
+    display: none;
 }
 
 @include media-breakpoint-down(md) {

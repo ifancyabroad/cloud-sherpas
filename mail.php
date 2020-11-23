@@ -1,68 +1,28 @@
 <?php
-$errors = [];
-$errorMessage = '';
-$successMessage = '';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+/*
+Tested working with PHP5.4 and above (including PHP 7 )
 
-if (!empty($_POST)) {
-    // Get variables from AJAX request
-    $first_name = $_POST['firstName'];
-    $second_name = $_POST['secondName'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $message = $_POST['message'];
+ */
+require_once './vendor/autoload.php';
 
-    // Check for empty fields
-    if (empty($first_name)) {
-        $errors[] = 'First name is empty';
-    }
+use FormGuide\Handlx\FormHandler;
 
-    if (empty($second_name)) {
-        $errors[] = 'Second name is empty';
-    }
 
-    if (empty($email)) {
-        $errors[] = 'Email is empty';
-    } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'Email is invalid';
-    }
+$pp = new FormHandler();
 
-    if (empty($phone)) {
-        $errors[] = 'Phone number is empty';
-    }
+$validator = $pp->getValidator();
+$validator->fields(['firstName','secondName','email'])->areRequired()->maxLength(50);
+$validator->field('email')->isEmail();
+$validator->field('message')->maxLength(6000);
 
-    if (empty($message)) {
-        $errors[] = 'Message is empty';
-    }
 
-    // Send the e-mail
-    if (empty($errors)) {
-        $toEmail = 'info@vnkconsult.com';
-        $emailSubject = 'New email from your contact form';
-        $headers =
-            "From: {$email}" . "\r\n" .
-            "Reply-To: {$email}" . "\r\n" .
-            // "Content-type: text/html; charset=iso-8859-1" . "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
+$pp->requireReCaptcha();
+$pp->getReCaptcha()->initSecretKey('6Le_ieoZAAAAAAJs-5jViC9BtDkEhFw7ldfEX3k5');
 
-        $bodyParagraphs = [
-            "First Name: {$first_name}",
-            "Second Name: {$second_name}",
-            "Phone Number: {$phone}",
-            "Email: {$email}",
-            "Message:", $message
-        ];
-        $body = join(PHP_EOL, $bodyParagraphs);
 
-        if (mail($toEmail, $emailSubject, $body, $headers)) {
-            $successMessage = "<p class=\"text-success\">Thank you for your message! We will be in touch shortly.</p>";
-            echo $successMessage;
-        } else {
-            $errorMessage = "<p class=\"text-danger\">Oops, something went wrong. Please try again later</p>";
-            die($errorMessage);
-        }
-    } else {
-        $allErrors = join('<br/>', $errors);
-        $errorMessage = "<p class=\"text-danger\">{$allErrors}</p>";
-        die($errorMessage);
-    }
-}
+$pp->sendEmailTo('edgar.nightingale@btinternet.com'); // ← Your email here
+
+echo $pp->process($_POST);

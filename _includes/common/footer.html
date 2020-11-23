@@ -5,8 +5,9 @@
                 <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up">
                     <img class="img-fluid mb-3" src="{{ 'assets/images/logos/vnk-logo.png' | relative_url }}" alt="VNK Consulting"
                         width="173">
-                    <p class="mb-3"><a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a></p>
-                    <p><u><a class="text-primary text-large" href="tel:0014162370009">(416) 237-0009</a></u></p>
+                    <p class="mb-3">Email - <a class="text-primary" href="mailto:info@vnkconsult.com">info@vnkconsult.com</a></p>
+                    <p class="mb-3">Local - <a class="text-primary text-large" href="tel:0014162370009">(416) 237-0009</a></p>
+                    <p>Toll free - <a class="text-primary text-large" href="tel:0018333640009">1-833-364-0009</a></p>
                 </div>
                 <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
                     <h5 class="mb-4">Services</h5>
@@ -73,7 +74,13 @@
     <script type="text/javascript" src="{{ 'assets/js/carousel.js' | relative_url }}"></script>
 {% endif %}
 {% if page.contact %}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="{{ 'assets/js/contact.js' | relative_url }}"></script>
+    <script>
+        function enableBtn() {
+            $("button[type=\"submit\"]").prop('disabled', false);
+        }
+    </script>
 {% endif %}
 {% if page.map %}
     <script type="text/javascript" src="{{ 'assets/js/map.js' | relative_url }}"></script>
