@@ -12,7 +12,7 @@ $(document).ready(function() {
             request.abort();
         }
 
-        const form =$(this);
+        const form = $(this);
         const inputs = form.find("input, button, textarea");
         const submitBtn = form.find("button[type=\"submit\"]");
         const successMessage = $("#successMessage");
@@ -23,13 +23,13 @@ $(document).ready(function() {
         submitBtn.prop('orig_label', submitBtn.text());
         submitBtn.text('Sending ...');
 
+        // Serialise the form data
+        const serializedData = form.serialize();
+
         // Let's disable the inputs for the duration of the Ajax request.
         // Note: we disable elements AFTER the form data has been serialized.
         // Disabled form elements will not be serialized.
         inputs.prop('disabled', true);
-
-        // Serialise the form data
-		const serializedData = form.serialize();
 
 		// Send AJAX request
 		request = $.ajax({

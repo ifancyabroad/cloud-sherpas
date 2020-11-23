@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6Le_ieoZAAAAAAJs-5jViC9BtDkEhFw7ldfEX3k5');
 
 
-$pp->sendEmailTo('edgar.nightingale@btinternet.com'); // ← Your email here
+$pp->sendEmailTo('sales@vnkconsult.com'); // ← Your email here
 
 echo $pp->process($_POST);
