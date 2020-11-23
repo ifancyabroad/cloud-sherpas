@@ -15,8 +15,8 @@ $(document).ready(function() {
         const form =$(this);
         const inputs = form.find("input, button, textarea");
         const submitBtn = form.find("button[type=\"submit\"]");
-        const successMessage = $("successMessage");
-        const errorMessage = $("errorMessage");
+        const successMessage = $("#successMessage");
+        const errorMessage = $("#errorMessage");
 
         // Show some response on the button
         submitBtn.prop('type','button' );
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		// Send AJAX request
 		request = $.ajax({
 			type: 'POST',
-			url: '../mail.php',
+			url: '../handler.php',
             data: serializedData,
             dataType: 'json'
         });
