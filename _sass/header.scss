@@ -9,6 +9,7 @@
 }
 
 .navbar {
+    margin-bottom: 100px;
 
     .nav-item {
         font-size: $font-size-lg;
@@ -28,6 +29,15 @@
     }
 }
 
+@include media-breakpoint-down(md) {
+
+    .header-home {
+        .navbar {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
 @include media-breakpoint-up(lg) {
 
     .header-home,
@@ -35,7 +45,7 @@
         margin-bottom: 100px;
     }
 
-    .navbar {    
+    .navbar {
         .nav-item {
             .underline {
                 margin: auto;
