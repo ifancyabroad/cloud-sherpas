@@ -1,23 +1,17 @@
+.bg-shapes-contact {
+    background-image: url("../images/backgrounds/contact.svg");
+    background-position: center 20%;
+    background-repeat: no-repeat;
+}
+
 .contact-cta {
     background-image: url("../images/backgrounds/blue_banner_bg.svg");
     background-size: cover;
 }
 
-.contact-form {
-    position: relative;
-    margin-bottom: 100px;
-}
-
 #successMessage,
 #errorMessage {
     display: none;
-}
-
-@include media-breakpoint-down(md) {
-
-    .contact-form {
-        margin-bottom: 40px; 
-    }
 }
 
 #mapid {
